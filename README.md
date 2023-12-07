@@ -42,12 +42,20 @@ This guide provides a quick way to get started with our project. Please see our 
 
 ### Requirements
 
-1. Apache DevLake installed
-2. [List any other requirements]
+1. [Apache DevLake](https://github.com/apache/incubator-devlake)
+2. [Docker](https://docs.docker.com/engine/install/)
 
-### Setup Instructions
+### Setup Instructions for A Basic GitHub Project
 
-1. [Step-by-step setup instructions here, with optional screenshots]
+1. Run the setup script
+
+```bash
+bash install_devlake.sh
+```
+
+2. [Create a new GitHub Data Connection]()
+
+* If the project is hosted on JPL's GitHub Enterprise use the endpoint: `https://<JPL-ENTERPRISE-URL>/api/v3/`
 
 ### Run Instructions
 
